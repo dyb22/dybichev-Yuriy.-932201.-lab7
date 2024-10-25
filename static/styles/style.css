@@ -1,0 +1,39 @@
+#container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+  }
+  
+  .shape {
+    position: absolute;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .shape.selected {
+    border: 2px solid red;
+  }
+  
+  .square {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50%;
+  }
+  
+  .triangle {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid blue;
+  }
+
+  
